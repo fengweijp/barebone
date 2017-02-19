@@ -1,0 +1,56 @@
+/** @define InputGroup; weak */
+
+.InputGroup {
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+}
+
+.InputGroup > .TextInput {
+    position: relative;
+
+    // Bring the input to the upfront.
+    z-index: 2;
+
+    // Make the input to fill remaining space by X-axis.
+    flex-grow: 1;
+}
+
+// Bring the active component to the upfront.
+.InputGroup > .Button:hover,
+.InputGroup > .Button:focus,
+.InputGroup > .Button:active,
+.InputGroup > .Button.is-active,
+.InputGroup > .TextInput:focus,
+.InputGroup > .TextInput.is-focused {
+    z-index: 3;
+}
+
+// NOTE: `margin-left` value is depends on both the button's and input's
+// `border-left-width` and `border-right-width` properties values.
+// They should be exactly the same.
+.InputGroup > .TextInput:not(:first-child),
+.InputGroup > .Button:not(:first-child),
+.InputGroup > .InputGroup-item:not(:first-child) {
+    margin-left: -1px; /** @flipper ignore */
+}
+
+.InputGroup > .TextInput:not(:first-child):not(:last-child),
+.InputGroup > .Button:not(:first-child):not(:last-child),
+.InputGroup > .InputGroup-item:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+.InputGroup > .TextInput:not(:only-child):first-child,
+.InputGroup > .Button:not(:only-child):first-child,
+.InputGroup > .InputGroup-item:not(:only-child):first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.InputGroup > .TextInput:not(:only-child):last-child,
+.InputGroup > .Button:not(:only-child):last-child,
+.InputGroup > .InputGroup-item:not(:only-child):last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

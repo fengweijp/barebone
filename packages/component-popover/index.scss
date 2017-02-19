@@ -1,0 +1,44 @@
+/** @define Popover */
+
+@import "~@barebone/var-z-index";
+
+$zIndex-Popover: $zIndex-5 !default;
+$size-Popover-arrow: 16px !default;
+$margin-Popover: $size-Popover-arrow !default;
+$maxWidth-Popover: 480px !default;
+$padding-Popover-inner: .875rem !default;
+$border-Popover-inner: 1px solid transparent !default;
+
+// NOTE(1): You should use `transform: translate(X, Y)`
+//       to align the popover.
+.Popover {
+    position: absolute;
+    top: 0; // 1
+    left: 0; /** @flipper ignore; 1 */
+    z-index: $zIndex-Popover;
+    display: none;
+    box-sizing: content-box;
+    max-width: $maxWidth-Popover;
+
+    // Make space around popover for the arrow.
+    margin: $margin-Popover;
+    user-select: none;
+}
+
+.Popover.is-open {
+    display: block;
+}
+
+.Popover-inner {
+    position: relative;
+    box-sizing: border-box;
+    padding: $padding-Popover-inner;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    border: $border-Popover-inner;
+}
+
+// The arrow component is deliberately isn't styled, as it depends
+// on the implementation (CSS, SVG, etc.).
+.Popover-arrow {}

@@ -1,0 +1,22 @@
+/** @define utilities */
+
+.u-hidden {
+    display: none !important;
+}
+
+.u-block {
+    display: block !important;
+}
+
+.u-flex {
+    display: flex !important;
+}
+
+.u-inlineBlock {
+    display: inline-block !important;
+
+    // Fix for Firefox bug: an image styled `max-width:100%` within an
+    // inline-block will display at its default size, and not limit its width to
+    // 100% of an ancestral container.
+    max-width: 100%;
+}

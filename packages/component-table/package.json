@@ -1,0 +1,17 @@
+{
+  "name": "@barebone/component-table",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "Table component from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "component",
+    "bar"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "repository": "getbarebone/barebone"
+}

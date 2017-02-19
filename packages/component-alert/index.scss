@@ -1,0 +1,39 @@
+/** @define Alert */
+
+$padding-Alert: .75rem !default;
+$marginBottom-Alert: .75rem !default;
+$border-Alert: 1px solid transparent !default;
+$padding-Alert-close: 0 0 0 .75rem !default;
+$fontSize-Alert-close: 1.5rem !default;
+$fontWeight-Alert-close: 700 !default;
+
+.Alert {
+  display: none;
+  box-sizing: border-box;
+  padding: $padding-Alert;
+  margin-bottom: $marginBottom-Alert;
+  border: $border-Alert;
+}
+
+.Alert.is-open {
+  display: flex;
+}
+
+// NOTE(1): The `.Alert-close` button should go after all as of
+//       `margin-(left|right): auto` behavior, which otherwise will
+//        push right-, left-hand elements (after/before the `.Alert-close`
+//        element) to right/left, including the itself.
+//       (see https://www.w3.org/TR/css-flexbox-1/#auto-margins)
+.Alert-close {
+  padding: $padding-Alert-close;
+  margin-left: auto; // 1
+  border: 0;
+  align-self: flex-start;
+  font-size: $fontSize-Alert-close;
+  line-height: 1;
+  font-weight: $fontWeight-Alert-close;
+  background: none;
+  outline: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+}

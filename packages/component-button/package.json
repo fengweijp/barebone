@@ -1,0 +1,17 @@
+{
+  "name": "@barebone/component-button",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "Button component from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "component",
+    "button"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "repository": "getbarebone/barebone"
+}

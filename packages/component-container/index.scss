@@ -1,0 +1,15 @@
+/** @define Container */
+
+$gutter-Container: 1rem !default;
+
+.Container {
+    box-sizing: border-box;
+
+    // Workaround of unwanted behavior when `.Container` inside of
+    // element with `display` set to `[inline-]flex` is narrowed.
+    width: 100%;
+    padding-left: $gutter-Container;
+    padding-right: $gutter-Container;
+    margin-left: auto;
+    margin-right: auto;
+}

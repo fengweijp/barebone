@@ -1,0 +1,18 @@
+/** @define Progress */
+
+$height-Progress: .75rem !default;
+
+.Progress {
+    display: inline-flex;
+    width: 100%;
+    height: $height-Progress;
+    overflow: hidden;
+}
+
+.Progress-bar {
+    width: 0;
+    height: 100%;
+
+    // Prevent multiple `.Progess-bar`s from shrinking.
+    flex-shrink: 0;
+}

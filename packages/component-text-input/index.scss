@@ -1,0 +1,73 @@
+/** @define TextInput */
+
+$padding-TextInput: .375rem .75rem !default;
+$border-TextInput: 1px solid transparent !default;
+$fontFamily-TextInput: -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", Roboto, Oxygen,
+                         Ubuntu, Cantarell, "Fira Sans",
+                         "Open Sans", "Helvetica Neue", sans-serif !default;
+$fontSize-TextInput: 1rem !default;
+$fontWeight-TextInput: 400 !default;
+$lineHeight-TextInput: 1.25 !default;
+$color-TextInput: currentColor !default;
+$backgroundColor-TextInput: transparent !default;
+$color-disabled-TextInput: $color-TextInput !default;
+$backgroundColor-disabled-TextInput: $backgroundColor-TextInput !default;
+$opacity-disabled-TextInput: .65 !default;
+
+// Normalize disabled `input`'s `color` behavior across all browsers.
+$color-placeholder-TextInput: darkgray !default;
+
+.TextInput {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: $padding-TextInput;
+    border: $border-TextInput;
+    vertical-align: middle;
+    font-family: $fontFamily-TextInput;
+    font-size: $fontSize-TextInput;
+    font-weight: $fontWeight-TextInput;
+    line-height: $lineHeight-TextInput;
+
+    // Remove unncessary text-transform that may be inherited
+    // from parent element.
+    text-transform: none;
+    color: $color-TextInput;
+    background-color: $backgroundColor-TextInput;
+    outline: 0;
+}
+
+.TextInput:disabled,
+.TextInput:read-only,
+.TextInput.is-disabled {
+    color: $color-disabled-TextInput;
+    background-color: $backgroundColor-disabled-TextInput;
+    opacity: $opacity-disabled-TextInput;
+}
+
+.TextInput:disabled,
+.TextInput.is-disabled {
+    cursor: default;
+    pointer-events: none;
+}
+
+.TextInput::placeholder {
+    color: $color-placeholder-TextInput;
+
+    // Normalize uncommon `opacity: 0.54;` behavior applied to input
+    // placeholder in Firefox.
+    // (see https://bugzilla.mozilla.org/show_bug.cgi?id=556145)
+    opacity: 1;
+}
+
+// Correct the odd appearance of search inputs in Chrome and Safari.
+.TextInput[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+// Remove the inner padding and cancel buttons in Chrome and Safari.
+.TextInput[type="search"]::-webkit-search-cancel-button,
+.TextInput[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}

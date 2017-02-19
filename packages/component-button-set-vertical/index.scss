@@ -1,0 +1,15 @@
+/** @define ButtonSetVertical; weak */
+
+$gutter-ButtonSetVertical-children: .5rem !default;
+
+.ButtonSetVertical {
+    position: relative;
+    display: inline-flex;
+    vertical-align: top;
+    flex-flow: column wrap;
+}
+
+.ButtonSetVertical > .Button:not(:last-child),
+.ButtonSetVertical > .ButtonGroupVertical:not(:last-child) {
+    margin-bottom: $gutter-ButtonSetVertical-children;
+}

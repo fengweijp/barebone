@@ -1,0 +1,82 @@
+$fontFamily-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                  Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
+$lineHeight-base: 1.5 !default;
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+    // Prevent Safari on iOS from highlighting links.
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    font-family: $fontFamily-base;
+
+    // Scale font size based on the root element (mostly `<html>`).
+    font-size: 1rem;
+    line-height: $lineHeight-base;
+}
+
+// Remove gaps in links underline in iOS 8+ and Safari 8+
+a {
+    -webkit-text-decoration-skip: objects;
+}
+
+// Reset appropriated elements.
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+    margin: 0;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+
+    // Make images responsive.
+    max-width: 100%;
+    height: auto;
+}
+
+svg:not(:root) {
+    // Hide the overflow in IE.
+    overflow: hidden;
+
+    // Remove unnecessary margin added to bottom.
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+// Reset heading cell aligning to center.
+th {
+    text-align: left;
+}
+
+// Suppress the focus outline on elements that cannot be accessed via keyboard.
+// This prevents an unwanted focus outline from appearing around elements that
+// might still respond to pointer events.
+[tabindex="-1"]:focus {
+    outline: 0 !important;
+}

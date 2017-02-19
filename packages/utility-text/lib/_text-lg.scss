@@ -1,0 +1,17 @@
+/** @define utilities */
+
+@import "~@barebone/var-viewport-breakpoints";
+
+@media (min-width: $lg-viewport) {
+    .u-lg-textRight {
+        text-align: right !important;
+    }
+
+    .u-lg-textLeft {
+        text-align: left !important;
+    }
+
+    .u-lg-textCenter {
+        text-align: center !important;
+    }
+}

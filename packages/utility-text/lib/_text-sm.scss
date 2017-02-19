@@ -1,0 +1,17 @@
+/** @define utilities */
+
+@import "~@barebone/var-viewport-breakpoints";
+
+@media (min-width: $sm-viewport) {
+    .u-sm-textRight {
+        text-align: right !important;
+    }
+
+    .u-sm-textLeft {
+        text-align: left !important;
+    }
+
+    .u-sm-textCenter {
+        text-align: center !important;
+    }
+}

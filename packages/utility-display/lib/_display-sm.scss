@@ -1,0 +1,22 @@
+/** @define utilities */
+
+@import "~@barebone/var-viewport-breakpoints";
+
+@media (min-width: $sm-viewport) {
+    .u-sm-hidden {
+        display: none !important;
+    }
+
+    .u-sm-block {
+        display: block !important;
+    }
+
+    .u-sm-flex {
+        display: flex !important;
+    }
+
+    .u-sm-inlineBlock {
+        display: inline-block !important;
+        max-width: 100%;
+    }
+}

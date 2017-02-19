@@ -1,0 +1,21 @@
+{
+  "name": "@barebone/utility-offset-after",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "offsetAfter utility from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "utility",
+    "offset",
+    "after"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "dependencies": {
+    "@barebone/var-viewport-breakpoints": "^1.0.0"
+  },
+  "repository": "getbarebone/barebone"
+}

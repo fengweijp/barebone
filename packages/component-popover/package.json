@@ -1,0 +1,20 @@
+{
+  "name": "@barebone/component-popover",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "Popover component from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "component",
+    "popover"
+  ],
+  "dependencies": {
+    "@barebone/var-z-index": "^1.0.0"
+  },
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "repository": "getbarebone/barebone"
+}

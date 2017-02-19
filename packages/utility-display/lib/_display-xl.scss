@@ -1,0 +1,22 @@
+/** @define utilities */
+
+@import "~@barebone/var-viewport-breakpoints";
+
+@media (min-width: $xl-viewport) {
+    .u-xl-hidden {
+        display: none !important;
+    }
+
+    .u-xl-block {
+        display: block !important;
+    }
+
+    .u-xl-flex {
+        display: flex !important;
+    }
+
+    .u-xl-inlineBlock {
+        display: inline-block !important;
+        max-width: 100%;
+    }
+}

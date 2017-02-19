@@ -1,0 +1,17 @@
+{
+  "name": "@barebone/component-alert",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "Alert component from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "component",
+    "alert"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "repository": "getbarebone/barebone"
+}

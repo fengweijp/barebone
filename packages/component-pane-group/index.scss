@@ -1,0 +1,11 @@
+/** @define PaneGroup */
+
+.PaneGroup {
+    display: flex;
+}
+
+.PaneGroup-item {
+    position: relative;
+    overflow-y: auto;
+    flex-grow: 1;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@barebone/component-page",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "Page component from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "component",
+    "page"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "repository": "getbarebone/barebone"
+}

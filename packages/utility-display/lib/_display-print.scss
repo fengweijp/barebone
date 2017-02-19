@@ -1,0 +1,21 @@
+/** @define utilities */
+
+.u-print-block,
+.u-print-inline,
+.u-print-inlineBlock {
+    display: none !important;
+}
+
+@media print {
+    .u-print-hidden {
+        display: none !important;
+    }
+
+    .u-print-inlineBlock {
+        display: block !important;
+    }
+
+    .u-print-inline {
+        display: inline !important;
+    }
+}

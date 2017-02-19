@@ -1,0 +1,21 @@
+{
+  "name": "@barebone/base",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "Global styles from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "base"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "files": [
+    "index.scss",
+    "index.css",
+    "README.md"
+  ],
+  "repository": "getbarebone/barebone"
+}

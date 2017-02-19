@@ -1,0 +1,17 @@
+/** @define Tag */
+
+$padding-Tag: .25em .5em !default;
+$fontSize-Tag: .75em !default;
+$fontWeight-Tag: 700 !default;
+
+.Tag {
+    display: inline-block;
+    padding: $padding-Tag;
+    vertical-align: middle;
+    font-size: $fontSize-Tag;
+    line-height: 1;
+    font-weight: $fontWeight-Tag;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+}

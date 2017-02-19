@@ -1,0 +1,17 @@
+/** @define utilities */
+
+@import "~@barebone/var-viewport-breakpoints";
+
+@media (min-width: $xl-viewport) {
+    .u-xl-textRight {
+        text-align: right !important;
+    }
+
+    .u-xl-textLeft {
+        text-align: left !important;
+    }
+
+    .u-xl-textCenter {
+        text-align: center !important;
+    }
+}

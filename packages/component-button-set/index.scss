@@ -1,0 +1,15 @@
+/** @define ButtonSet; weak */
+
+$gutter-ButtonSet-children: .5rem !default;
+
+.ButtonSet {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+
+.ButtonSet > .Button:not(:last-child),
+.ButtonSet > .ButtonGroup:not(:last-child) {
+    margin-right: $gutter-ButtonSet-children;
+}

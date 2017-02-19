@@ -1,0 +1,24 @@
+{
+  "name": "@barebone/component-input-group",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "InputGroup component from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "component",
+    "text",
+    "input",
+    "button",
+    "group"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "dependencies": {
+    "@barebone/component-text-input": "^1.0.0",
+    "@barebone/component-button": "^1.0.0"
+  },
+  "repository": "getbarebone/barebone"
+}

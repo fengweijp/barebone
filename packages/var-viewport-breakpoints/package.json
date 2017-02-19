@@ -1,0 +1,18 @@
+{
+  "name": "@barebone/var-viewport-breakpoints",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "Viewport breakpoints variables from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "variable",
+    "viewport",
+    "breakpoints"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "repository": "getbarebone/barebone"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@barebone/component-button-set-vertical",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "ButtonSetVertical component from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "component",
+    "button",
+    "set",
+    "vertical"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "dependencies": {
+    "@barebone/component-button": "^1.0.0"
+  },
+  "repository": "getbarebone/barebone"
+}

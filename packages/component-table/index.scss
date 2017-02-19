@@ -1,0 +1,44 @@
+/** @define Table; weak */
+
+$padding-Table-cell: .75rem !default;
+$borderBottom-Table-cell: 1px solid transparent !default;
+$borderBottom-Table-heading-cell: 2px solid transparent !default;
+$border-bordered-Table: 1px solid transparent !default;
+
+.Table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.Table > thead > tr > th,
+.Table > thead > tr > td,
+.Table > tbody > tr > th,
+.Table > tbody > tr > td,
+.Table > tfoot > tr > th,
+.Table > tfoot > tr > td {
+    text-align: left;
+    padding: $padding-Table-cell;
+    border-bottom: $borderBottom-Table-cell;
+    vertical-align: top;
+}
+
+.Table > thead > tr > th {
+    border-bottom: $borderBottom-Table-heading-cell;
+    vertical-align: bottom;
+}
+
+.Table > thead:last-child > tr:last-child > th,
+.Table > thead:last-child > tr:last-child > td,
+.Table > tbody:last-child > tr:last-child > th,
+.Table > tbody:last-child > tr:last-child > td,
+.Table > tfoot:last-child > tr:last-child > th,
+.Table > tfoot:last-child > tr:last-child > td {
+    border-bottom: 0;
+}
+
+.Table--bordered {
+    border: $border-bordered-Table;
+}

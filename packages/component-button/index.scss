@@ -1,0 +1,86 @@
+/** @define Button */
+
+$padding-Button: .375rem .75rem !default;
+$border-Button: 1px solid transparent !default;
+$fontFamily-Button: -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", Roboto, Oxygen,
+                         Ubuntu, Cantarell, "Fira Sans",
+                         "Open Sans", "Helvetica Neue", sans-serif !default;
+$fontSize-Button: 1rem !default;
+$fontWeight-Button: 400 !default;
+$lineHeight-Button: 1.25 !default;
+$color-Button: currentColor !default;
+$opacity-disabled-Button: .65 !default;
+$padding-sm-Button: .25rem .5rem !default;
+$fontSize-sm-Button: .875rem !default;
+$padding-lg-Button: .625rem 1.25rem !default;
+$fontSize-lg-Button: 1.125rem !default;
+
+.Button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: $padding-Button;
+    border: $border-Button;
+    vertical-align: middle;
+    font-family: $fontFamily-Button;
+    font-size: $fontSize-Button;
+    font-weight: $fontWeight-Button;
+    line-height: $lineHeight-Button;
+
+    // Remove unnecessary underline that may be inherited from
+    // link element.
+    text-decoration: none;
+    text-align: center;
+
+    // Remove unncessary text-transform that may be inherited
+    // from parent element.
+    text-transform: none;
+    color: $color-Button;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+
+    // Remove 300ms latency between user's tap and browser's
+    // reaction on it on mobile devices.
+    touch-action: manipulation;
+}
+
+// Remove excess padding and border in Firefox 4+.
+.Button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.Button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+// Remove unnecessary underline that may be inherited from
+// link element.
+.Button:hover,
+.Button:focus,
+.Button:active,
+.Button.is-active {
+    text-decoration: none;
+}
+
+.Button:disabled,
+.Button.is-disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: $opacity-disabled-Button;
+}
+
+// Modifier: size small
+.Button--sm {
+    padding: $padding-sm-Button;
+    font-size: $fontSize-sm-Button;
+}
+
+// Modifier: size large
+.Button--lg {
+    padding: $padding-lg-Button;
+    font-size: $fontSize-lg-Button;
+}

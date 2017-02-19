@@ -1,0 +1,59 @@
+/** @define Card */
+
+$marginBottom-Card: 1rem !default;
+$padding-Card-block: 1rem !default;
+$border-Card-block: 1px solid transparent !default;
+$zIndex-Card-image: 2 !default;
+
+.Card {
+    position: relative;
+    display: block;
+    margin-bottom: $marginBottom-Card;
+}
+
+.Card-block {
+    box-sizing: border-box;
+    padding: $padding-Card-block;
+    border: $border-Card-block;
+}
+
+.Card-block,
+.Card-image {
+    display: block;
+
+    // Stretch blocks to fill container's width.
+    width: 100%;
+}
+
+.Card-image {
+    position: relative;
+
+    // Makes sure that image-block aren't overlapped
+    // by blocks.
+    z-index: $zIndex-Card-image;
+    height: auto;
+}
+
+// NOTE: The value of `margin-bottom` should be equal to
+// `border-bottom-width` value.
+.Card-block:not(:last-child),
+.Card-image:not(:last-child) {
+    margin-bottom: -1px;
+}
+
+.Card-block:first-child:not(:only-child),
+.Card-image:first-child:not(:only-child) {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.Card-block:last-child:not(:only-child),
+.Card-image:first-child:not(:only-child) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.Card-block:not(:first-child):not(:last-child),
+.Card-image:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}

@@ -1,0 +1,116 @@
+/** @define utilities */
+
+@import "~@barebone/var-viewport-breakpoints";
+
+@media (min-width: $sm-viewport) {
+    .u-sm-offsetBefore1of12 {
+        margin-left: 8.33% !important;
+    }
+
+    .u-sm-offsetBefore1of10 {
+        margin-left: 10% !important;
+    }
+
+    .u-sm-offsetBefore1of8 {
+        margin-left: 12.5% !important;
+    }
+
+    .u-sm-offsetBefore1of6,
+    .u-sm-offsetBefore2of12 {
+        margin-left: 16.66% !important;
+    }
+
+    .u-sm-offsetBefore1of5,
+    .u-sm-offsetBefore2of10 {
+        margin-left: 20% !important;
+    }
+
+    .u-sm-offsetBefore1of4,
+    .u-sm-offsetBefore2of8,
+    .u-sm-offsetBefore3of12 {
+        margin-left: 25% !important;
+    }
+
+    .u-sm-offsetBefore3of10 {
+        margin-left: 30% !important;
+    }
+
+    .u-sm-offsetBefore1of3,
+    .u-sm-offsetBefore2of6,
+    .u-sm-offsetBefore4of12 {
+        margin-left: 33.33% !important;
+    }
+
+    .u-sm-offsetBefore3of8 {
+        margin-left: 37.5% !important;
+    }
+
+    .u-sm-offsetBefore2of5,
+    .u-sm-offsetBefore4of10 {
+        margin-left: 40% !important;
+    }
+
+    .u-sm-offsetBefore5of12 {
+        margin-left: 41.66% !important;
+    }
+
+    .u-sm-offsetBefore1of2,
+    .u-sm-offsetBefore2of4,
+    .u-sm-offsetBefore3of6,
+    .u-sm-offsetBefore4of8,
+    .u-sm-offsetBefore5of10,
+    .u-sm-offsetBefore6of12 {
+        margin-left: 50% !important;
+    }
+
+    .u-sm-offsetBefore7of12 {
+        margin-left: 58.33% !important;
+    }
+
+    .u-sm-offsetBefore3of5,
+    .u-sm-offsetBefore6of10 {
+        margin-left: 60% !important;
+    }
+
+    .u-sm-offsetBefore5of8 {
+        margin-left: 62.5% !important;
+    }
+
+    .u-sm-offsetBefore2of3,
+    .u-sm-offsetBefore4of6,
+    .u-sm-offsetBefore8of12 {
+        margin-left: 66.66% !important;
+    }
+
+    .u-sm-offsetBefore7of10 {
+        margin-left: 70% !important;
+    }
+
+    .u-sm-offsetBefore3of4,
+    .u-sm-offsetBefore6of8,
+    .u-sm-offsetBefore9of12 {
+        margin-left: 75% !important;
+    }
+
+    .u-sm-offsetBefore4of5,
+    .u-sm-offsetBefore8of10 {
+        margin-left: 80% !important;
+    }
+
+    .u-sm-offsetBefore5of6,
+    .u-sm-offsetBefore10of12 {
+        margin-left: 83.33% !important;
+    }
+
+    .u-sm-offsetBefore7of8 {
+        margin-left: 87.5% !important;
+    }
+
+    .u-sm-offsetBefore9of10 {
+        margin-left: 90% !important;
+    }
+
+    .u-sm-offsetBefore11of12 {
+        margin-left: 91.66% !important;
+    }
+}

@@ -1,0 +1,21 @@
+/** @define Page */
+
+// NOTE: `.Page` and `.Page-body` classes should be applied
+//       only to one element per page each.
+//       `.Page` class should be applied only to `body` tag.
+
+.Page {
+  position: relative;
+  display: flex;
+
+  // Makes it to be at least the same in height as viewport.
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  flex-direction: column;
+}
+
+.Page-body {
+  flex-grow: 1;
+}

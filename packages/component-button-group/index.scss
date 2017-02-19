@@ -1,0 +1,36 @@
+/** @define ButtonGroup; weak */
+
+.ButtonGroup {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+// Bring the active button to the upfront.
+.ButtonGroup > .Button:hover,
+.ButtonGroup > .Button:focus,
+.ButtonGroup > .Button:active,
+.ButtonGroup > .Button.is-active {
+    z-index: 2;
+}
+
+// NOTE: `margin-left` value is depends on the button's
+//       `border-left-width` and `border-right-width` properties values.
+//        They should be exactly the same.
+.ButtonGroup > .Button:not(:first-child) {
+    margin-left: -1px; /** @flipper ignore */
+}
+
+.ButtonGroup > .Button:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+.ButtonGroup > .Button:not(:only-child):first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.ButtonGroup > .Button:not(:only-child):last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

@@ -1,0 +1,116 @@
+/** @define utilities */
+
+@import "~@barebone/var-viewport-breakpoints";
+
+@media (min-width: $xl-viewport) {
+    .u-xl-offsetBefore1of12 {
+        margin-left: 8.33% !important;
+    }
+
+    .u-xl-offsetBefore1of10 {
+        margin-left: 10% !important;
+    }
+
+    .u-xl-offsetBefore1of8 {
+        margin-left: 12.5% !important;
+    }
+
+    .u-xl-offsetBefore1of6,
+    .u-xl-offsetBefore2of12 {
+        margin-left: 16.66% !important;
+    }
+
+    .u-xl-offsetBefore1of5,
+    .u-xl-offsetBefore2of10 {
+        margin-left: 20% !important;
+    }
+
+    .u-xl-offsetBefore1of4,
+    .u-xl-offsetBefore2of8,
+    .u-xl-offsetBefore3of12 {
+        margin-left: 25% !important;
+    }
+
+    .u-xl-offsetBefore3of10 {
+        margin-left: 30% !important;
+    }
+
+    .u-xl-offsetBefore1of3,
+    .u-xl-offsetBefore2of6,
+    .u-xl-offsetBefore4of12 {
+        margin-left: 33.33% !important;
+    }
+
+    .u-xl-offsetBefore3of8 {
+        margin-left: 37.5% !important;
+    }
+
+    .u-xl-offsetBefore2of5,
+    .u-xl-offsetBefore4of10 {
+        margin-left: 40% !important;
+    }
+
+    .u-xl-offsetBefore5of12 {
+        margin-left: 41.66% !important;
+    }
+
+    .u-xl-offsetBefore1of2,
+    .u-xl-offsetBefore2of4,
+    .u-xl-offsetBefore3of6,
+    .u-xl-offsetBefore4of8,
+    .u-xl-offsetBefore5of10,
+    .u-xl-offsetBefore6of12 {
+        margin-left: 50% !important;
+    }
+
+    .u-xl-offsetBefore7of12 {
+        margin-left: 58.33% !important;
+    }
+
+    .u-xl-offsetBefore3of5,
+    .u-xl-offsetBefore6of10 {
+        margin-left: 60% !important;
+    }
+
+    .u-xl-offsetBefore5of8 {
+        margin-left: 62.5% !important;
+    }
+
+    .u-xl-offsetBefore2of3,
+    .u-xl-offsetBefore4of6,
+    .u-xl-offsetBefore8of12 {
+        margin-left: 66.66% !important;
+    }
+
+    .u-xl-offsetBefore7of10 {
+        margin-left: 70% !important;
+    }
+
+    .u-xl-offsetBefore3of4,
+    .u-xl-offsetBefore6of8,
+    .u-xl-offsetBefore9of12 {
+        margin-left: 75% !important;
+    }
+
+    .u-xl-offsetBefore4of5,
+    .u-xl-offsetBefore8of10 {
+        margin-left: 80% !important;
+    }
+
+    .u-xl-offsetBefore5of6,
+    .u-xl-offsetBefore10of12 {
+        margin-left: 83.33% !important;
+    }
+
+    .u-xl-offsetBefore7of8 {
+        margin-left: 87.5% !important;
+    }
+
+    .u-xl-offsetBefore9of10 {
+        margin-left: 90% !important;
+    }
+
+    .u-xl-offsetBefore11of12 {
+        margin-left: 91.66% !important;
+    }
+}

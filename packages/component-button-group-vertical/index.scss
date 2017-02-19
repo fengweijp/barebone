@@ -1,0 +1,37 @@
+/** @define ButtonGroupVertical; weak */
+
+.ButtonGroupVertical {
+    position: relative;
+    display: inline-flex;
+    vertical-align: top;
+    flex-direction: column;
+}
+
+// Bring the active button to the upfront.
+.ButtonGroupVertical > .Button:hover,
+.ButtonGroupVertical > .Button:focus,
+.ButtonGroupVertical > .Button:active,
+.ButtonGroupVertical > .Button.is-active {
+    z-index: 2;
+}
+
+// NOTE: `margin-top` value is depends on the button's
+// `border-top-width` and `border-bottom-width` properties values.
+// They should be exactly the same.
+.ButtonGroupVertical > .Button:not(:first-child) {
+    margin-top: -1px;
+}
+
+.ButtonGroupVertical > .Button:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+.ButtonGroupVertical > .Button:not(:only-child):first-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.ButtonGroupVertical > .Button:not(:only-child):last-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}

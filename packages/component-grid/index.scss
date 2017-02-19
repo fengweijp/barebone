@@ -1,0 +1,34 @@
+/** @define Grid */
+
+// TODO: More modifiers for cells alingment.
+
+$gutter-Grid: 1rem !default;
+
+.Grid {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+// Modifier: gutters.
+.Grid--withGutter {
+    margin-left: $gutter-Grid * -1;
+    margin-right: $gutter-Grid * -1;
+}
+
+.Grid--withGutter > .Grid-cell {
+    padding-left: $gutter-Grid;
+    padding-right: $gutter-Grid;
+}
+
+.Grid-cell {
+    box-sizing: border-box;
+
+    // Prevent cells from collapsing.
+    min-height: 1px;
+}
+
+// Modifier: fill remaining space.
+.Grid-cell--fill {
+    flex-grow: 1;
+}

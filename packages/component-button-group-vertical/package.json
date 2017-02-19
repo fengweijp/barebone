@@ -1,0 +1,22 @@
+{
+  "name": "@barebone/component-button-group-vertical",
+  "version": "1.0.0",
+  "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
+  "description": "ButtonGroupVertical component from Barebone framework",
+  "keywords": [
+    "barebone",
+    "css",
+    "framework",
+    "component",
+    "button",
+    "group",
+    "vertical"
+  ],
+  "license": "MIT",
+  "style": "./index.scss",
+  "main": "./index.scss",
+  "dependencies": {
+    "@barebone/component-button": "^1.0.0"
+  },
+  "repository": "getbarebone/barebone"
+}
