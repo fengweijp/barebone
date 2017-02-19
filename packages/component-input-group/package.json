@@ -14,6 +14,9 @@
     "group"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "style": "./index.scss",
   "main": "./index.scss",
   "dependencies": {

@@ -15,6 +15,9 @@
   "license": "MIT",
   "style": "./index.scss",
   "main": "./index.scss",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@barebone/component-button": "^1.0.0"
   },

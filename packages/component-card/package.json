@@ -11,6 +11,9 @@
     "card"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "style": "./index.scss",
   "main": "./index.scss",
   "repository": "getbarebone/barebone"

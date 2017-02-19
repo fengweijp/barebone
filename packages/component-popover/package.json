@@ -10,11 +10,14 @@
     "component",
     "popover"
   ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "style": "./index.scss",
+  "main": "./index.scss",
   "dependencies": {
     "@barebone/var-z-index": "^1.0.0"
   },
-  "license": "MIT",
-  "style": "./index.scss",
-  "main": "./index.scss",
   "repository": "getbarebone/barebone"
 }

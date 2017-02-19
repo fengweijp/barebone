@@ -5,6 +5,6 @@
     "lerna": "^2.0.0-beta.37"
   },
   "scripts": {
-    "publish": "lerna run build && lerna publish"
+    "publish": "lerna publish"
   }
 }
