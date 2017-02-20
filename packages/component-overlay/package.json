@@ -1,6 +1,6 @@
 {
   "name": "@barebone/component-overlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
   "description": "Overlay component from Barebone framework",
   "keywords": [
@@ -18,7 +18,7 @@
   "style": "./index.scss",
   "main": "./index.scss",
   "dependencies": {
-    "@barebone/var-z-index": "^1.0.0"
+    "@barebone/var-z-index": "^1.0.1"
   },
   "repository": "getbarebone/barebone"
 }

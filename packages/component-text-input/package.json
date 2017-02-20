@@ -1,6 +1,6 @@
 {
   "name": "@barebone/component-text-input",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
   "description": "TextInput component from Barebone framework",
   "keywords": [

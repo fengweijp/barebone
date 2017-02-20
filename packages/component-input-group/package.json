@@ -1,6 +1,6 @@
 {
   "name": "@barebone/component-input-group",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
   "description": "InputGroup component from Barebone framework",
   "keywords": [
@@ -20,8 +20,8 @@
   "style": "./index.scss",
   "main": "./index.scss",
   "dependencies": {
-    "@barebone/component-text-input": "^1.0.0",
-    "@barebone/component-button": "^1.0.0"
+    "@barebone/component-text-input": "^1.0.2",
+    "@barebone/component-button": "^1.0.1"
   },
   "repository": "getbarebone/barebone"
 }

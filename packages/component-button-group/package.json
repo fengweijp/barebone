@@ -1,6 +1,6 @@
 {
   "name": "@barebone/component-button-group",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
   "description": "ButtonGroup component from Barebone framework",
   "keywords": [
@@ -18,7 +18,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@barebone/component-button": "^1.0.0"
+    "@barebone/component-button": "^1.0.1"
   },
   "repository": "getbarebone/barebone"
 }

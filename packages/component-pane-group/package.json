@@ -1,6 +1,6 @@
 {
   "name": "@barebone/component-pane-group",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
   "description": "Pane group component from Barebone framework",
   "keywords": [
