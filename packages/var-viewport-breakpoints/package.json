@@ -1,6 +1,6 @@
 {
   "name": "@barebone/var-viewport-breakpoints",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
   "description": "Viewport breakpoints variables from Barebone framework",
   "keywords": [
