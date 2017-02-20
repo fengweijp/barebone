@@ -1,6 +1,6 @@
 /** @define utilities */
 
-@import "@barebone/var-viewport-breakpoints";
+@import "~@barebone/var-viewport-breakpoints";
 
 @media (min-width: $md-viewport) {
     .u-md-size1of12 {
