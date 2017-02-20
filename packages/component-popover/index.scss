@@ -1,6 +1,6 @@
 /** @define Popover */
 
-@import "~@barebone/var-z-index";
+@import "~@barebone/var-z-index/index.scss";
 
 $zIndex-Popover: $zIndex-5 !default;
 $size-Popover-arrow: 16px !default;

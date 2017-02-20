@@ -1,6 +1,6 @@
 /** @define utilities */
 
-@import "~@barebone/var-viewport-breakpoints";
+@import "~@barebone/var-viewport-breakpoints/index.scss";
 
 @media (min-width: $sm-viewport) {
     .u-sm-offsetBefore1of12 {

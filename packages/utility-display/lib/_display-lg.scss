@@ -1,6 +1,6 @@
 /** @define utilities */
 
-@import "~@barebone/var-viewport-breakpoints";
+@import "~@barebone/var-viewport-breakpoints/index.scss";
 
 @media (min-width: $lg-viewport) {
     .u-lg-hidden {

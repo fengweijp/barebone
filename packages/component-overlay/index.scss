@@ -1,6 +1,6 @@
 /** @define Overlay */
 
-@import "~@barebone/var-z-index";
+@import "~@barebone/var-z-index/index.scss";
 
 $zIndex-Overlay: $zIndex-9 !default;
 $padding-Overlay-content: 1rem !default;
