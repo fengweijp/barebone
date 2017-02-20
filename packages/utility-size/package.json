@@ -1,6 +1,6 @@
 {
   "name": "@barebone/utility-size",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
   "description": "Sizes utility from Barebone framework",
   "keywords": [
@@ -18,7 +18,7 @@
   "style": "./index.scss",
   "main": "./index.scss",
   "dependencies": {
-    "@barebone/var-viewport-breakpoints": "^1.0.0"
+    "@barebone/var-viewport-breakpoints": "^1.0.1"
   },
   "repository": "getbarebone/barebone"
 }
