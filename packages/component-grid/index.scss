@@ -1,13 +1,30 @@
 /** @define Grid */
 
-// TODO: More modifiers for cells alingment.
-
 $gutter-Grid: 1rem !default;
 
 .Grid {
     display: flex;
     box-sizing: border-box;
-    flex-wrap: wrap;
+}
+
+// Modifier: align cell to center (by x-axis)
+.Grid--alignCenter {
+    justify-content: center;
+}
+
+// Modifier: align cell to right
+.Grid--alignRight {
+    justify-content: flex-end;
+}
+
+// Modifier: align cells to middle (by y-axis)
+.Grid--alignMiddle {
+    align-items: center;
+}
+
+// Modifier: align cells to bottom
+.Grid--alignBottom {
+    align-items: flex-end;
 }
 
 // Modifier: gutters.
@@ -31,4 +48,10 @@ $gutter-Grid: 1rem !default;
 // Modifier: fill remaining space.
 .Grid-cell--fill {
     flex-grow: 1;
+}
+
+// Modifier: horizontally center the cell.
+.Gird-cell--center {
+    margin-left: auto;
+    margin-right: auto;
 }
