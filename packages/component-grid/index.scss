@@ -7,24 +7,35 @@ $gutter-Grid: 1rem !default;
     box-sizing: border-box;
 }
 
-// Modifier: align cell to center (by x-axis)
+// Modifier: align cells to bottom.
+.Grid--alignBottom {
+    align-items: flex-end;
+}
+
+// Modifier: align cells to center (by x-axis).
 .Grid--alignCenter {
     justify-content: center;
 }
 
-// Modifier: align cell to right
-.Grid--alignRight {
-    justify-content: flex-end;
-}
-
-// Modifier: align cells to middle (by y-axis)
+// Modifier: align cells to middle (by y-axis).
 .Grid--alignMiddle {
     align-items: center;
 }
 
-// Modifier: align cells to bottom
-.Grid--alignBottom {
-    align-items: flex-end;
+// Modifier: align cells to right.
+.Grid--alignRight {
+    justify-content: flex-end;
+}
+
+// Modifier: align cells with spacing with equal width around them.
+.Grid--alignSpaceAround {
+    justify-content: space-around;
+}
+
+// Modifier: align cells from the start to the end of the parent with
+//           spacing between them.
+.Grid--alignSpaceBetween {
+    justify-content: space-between;
 }
 
 // Modifier: gutters.
@@ -48,10 +59,4 @@ $gutter-Grid: 1rem !default;
 // Modifier: fill remaining space.
 .Grid-cell--fill {
     flex-grow: 1;
-}
-
-// Modifier: horizontally center the cell.
-.Gird-cell--center {
-    margin-left: auto;
-    margin-right: auto;
 }
