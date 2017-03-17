@@ -30,12 +30,13 @@ $padding-Overlay-content: 1rem !default;
     display: flex;
 }
 
-// NOTE(1): You should control the width of dialog by setting
-//       `max-width` (instead of `width`).
-// Centering the element by both X- and Y-axises.
 .Overlay-content {
     // Prevent dialog from collapsing.
-    width: 100%; // 1
+    // NOTE: You should control the width of dialog by setting
+    //       `max-width` (instead of `width`).
+    width: 100%;
     padding: $padding-Overlay-content;
+
+    // Centering the element by both X- and Y-axises.
     margin: auto;
 }
