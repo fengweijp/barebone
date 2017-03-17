@@ -20,5 +20,5 @@
   "repository": "getbarebone/barebone",
   "dependencies": {
     "@barebone/component-button": "^1.0.1"
-  },
+  }
 }
