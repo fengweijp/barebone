@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {
     "publish": "oao publish",
-    "bootstrap": "oao bootstrap",
+    "bootstrap": "oao bootstrap --prod",
     "build": "NODE_ENV=\"production\" oao all \"webpack\"",
     "clean": "oao clean && rm -rf packages/**/index.css"
   },
