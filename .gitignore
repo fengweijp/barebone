@@ -1,3 +1,10 @@
 # Node.js
 node_modules
 *.log*
+
+# Build
+packages/**/index.css
+
+# Yarn
+packages/**/yarn.lock
+.yarnclean
