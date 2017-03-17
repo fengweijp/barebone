@@ -17,6 +17,6 @@
     "access": "public"
   },
   "style": "./index.scss",
-  "main": "./index.scss",
+  "main": "./index.js",
   "repository": "getbarebone/barebone"
 }

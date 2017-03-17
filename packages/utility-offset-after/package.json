@@ -16,9 +16,9 @@
     "access": "public"
   },
   "style": "./index.scss",
-  "main": "./index.scss",
+  "main": "./index.js",
+  "repository": "getbarebone/barebone",
   "dependencies": {
     "@barebone/var-viewport-breakpoints": "^1.0.2"
-  },
-  "repository": "getbarebone/barebone"
+  }
 }

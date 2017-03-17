@@ -15,9 +15,9 @@
     "access": "public"
   },
   "style": "./index.scss",
-  "main": "./index.scss",
+  "main": "./index.js",
+  "repository": "getbarebone/barebone",
   "dependencies": {
     "@barebone/var-z-index": "^1.0.1"
-  },
-  "repository": "getbarebone/barebone"
+  }
 }

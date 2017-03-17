@@ -18,10 +18,10 @@
     "access": "public"
   },
   "style": "./index.scss",
-  "main": "./index.scss",
+  "main": "./index.js",
+  "repository": "getbarebone/barebone",
   "dependencies": {
     "@barebone/component-text-input": "^1.0.2",
     "@barebone/component-button": "^1.0.1"
-  },
-  "repository": "getbarebone/barebone"
+  }
 }

@@ -16,7 +16,8 @@
     "access": "public"
   },
   "style": "./index.scss",
-  "main": "./index.scss",
+  "main": "./index.js",
+  "repository": "getbarebone/barebone",
   "dependencies": {
     "@barebone/base": "^1.0.1",
     "@barebone/component-alert": "^1.0.1",
@@ -32,10 +33,13 @@
     "@barebone/component-input-group": "^1.0.1",
     "@barebone/component-overlay": "^1.0.1",
     "@barebone/component-page": "^1.0.1",
+    "@barebone/component-pane-group": "^1.0.0",
     "@barebone/component-popover": "^1.0.1",
     "@barebone/component-progress": "^1.0.1",
+    "@barebone/component-table": "^1.0.1",
     "@barebone/component-tag": "^1.0.1",
     "@barebone/component-text-input": "^1.0.2",
+    "@barebone/component-window": "^1.0.0",
     "@barebone/utility-display": "^1.0.1",
     "@barebone/utility-offset-after": "^1.0.1",
     "@barebone/utility-offset-before": "^1.0.1",
@@ -43,6 +47,5 @@
     "@barebone/utility-text": "^1.0.1",
     "@barebone/var-viewport-breakpoints": "^1.0.2",
     "@barebone/var-z-index": "^1.0.1"
-  },
-  "repository": "getbarebone/barebone"
+  }
 }
