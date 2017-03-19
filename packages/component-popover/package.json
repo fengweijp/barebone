@@ -19,5 +19,8 @@
   "repository": "getbarebone/barebone",
   "dependencies": {
     "@barebone/var-z-index": "^1.0.1"
+  },
+  "scripts": {
+    "prepublish": "webpack"
   }
 }

@@ -18,6 +18,9 @@
   "style": "./index.scss",
   "main": "./index.js",
   "repository": "getbarebone/barebone",
+  "scripts": {
+    "prepublish": "webpack"
+  },
   "dependencies": {
     "@barebone/base": "^1.0.1",
     "@barebone/component-alert": "^1.0.1",

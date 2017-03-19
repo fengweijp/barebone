@@ -18,6 +18,9 @@
   "style": "./index.scss",
   "main": "./index.js",
   "repository": "getbarebone/barebone",
+  "scripts": {
+    "prepublish": "webpack"
+  },
   "dependencies": {
     "@barebone/var-viewport-breakpoints": "^1.0.2"
   }

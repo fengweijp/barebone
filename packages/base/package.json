@@ -15,5 +15,8 @@
   },
   "style": "./index.scss",
   "main": "./index.js",
-  "repository": "getbarebone/barebone"
+  "repository": "getbarebone/barebone",
+  "scripts": {
+    "prepublish": "webpack"
+  }
 }
