@@ -1,6 +1,6 @@
 {
   "name": "@barebone/utility-offset-after",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
   "description": "offsetAfter utility from Barebone framework",
   "keywords": [
@@ -22,6 +22,6 @@
     "prepublish": "webpack"
   },
   "dependencies": {
-    "@barebone/var-viewport-breakpoints": "^1.0.2"
+    "@barebone/var-viewport-breakpoints": "^1.1.2"
   }
 }

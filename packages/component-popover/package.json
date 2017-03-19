@@ -1,6 +1,6 @@
 {
   "name": "@barebone/component-popover",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "author": "Roman Vanesyan <romain.vanesyan@gmail.com>",
   "description": "Popover component from Barebone framework",
   "keywords": [
@@ -18,7 +18,7 @@
   "main": "./index.js",
   "repository": "getbarebone/barebone",
   "dependencies": {
-    "@barebone/var-z-index": "^1.0.1"
+    "@barebone/var-z-index": "^1.1.2"
   },
   "scripts": {
     "prepublish": "webpack"
