@@ -1,6 +1,6 @@
 /** @define Page */
 
-// NOTE: `.Page` and `.Page-body` classes should be applied
+// NOTE: `.Page` and `.Page-content` classes should be applied
 //       only to one element per page each.
 //       `.Page` class should be applied only to `body` tag.
 
@@ -16,6 +16,6 @@
   flex-direction: column;
 }
 
-.Page-body {
+.Page-content {
   flex-grow: 1;
 }
